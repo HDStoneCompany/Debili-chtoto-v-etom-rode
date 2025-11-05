@@ -24,13 +24,14 @@ class MainActivity : AppCompatActivity() {
             brands.text = calibers
         }
     }
-        fun getCalibers(color: String): List<String> {
-            return when (color){
-                ".308 Winchester" -> listOf("jail pale ale", "lager lite")
-                ".338 Lapua Magnum" -> listOf("jack amber", "red moose")
-                ".408 CheyTac" -> listOf("brown bear beer", "bock brownie")
-                ".50 BMG" -> listOf("BLUUGAUHH")
-                else -> listOf("gout stout", "dark daniel")
-            }
+    fun getCalibers(color: String): List<String> {
+        return when (color){
+            "Светлое фильрованное" -> listOf("наливааай")
+            "Тёсное фильтрованное" -> listOf("ДАВУУУААААЙ")
+            "Светлое нефильтрованное" -> listOf("ну такое")
+            "Тёмное нефильтрованное" -> listOf("фифти фифти")
+            "Антон" -> listOf("зачем")
+            else -> listOf("gout stout", "dark daniel")
         }
     }
+}
