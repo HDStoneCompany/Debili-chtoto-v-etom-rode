@@ -1,0 +1,15 @@
+<resources>
+    <string name="Button">Кнопка</string>
+    <string name="text">Казгоу вышла на андоид</string>
+    <string name="app_name">player</string>
+    <string name="brands">Пока ничего не выбрано...</string>
+    <string name="to_label">Кому</string>
+    <string name="message_label">Сообщение</string>
+    <string name="send_Button">Отправить</string>
+    <string-array name="sniperround_calibers">
+        <item>.308 Winchester</item>
+        <item>.338 Lapua Magnum</item>
+        <item>.408 CheyTac</item>
+        <item>.50 BMG</item>
+    </string-array>
+</resources>
