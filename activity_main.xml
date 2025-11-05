@@ -40,14 +40,7 @@
             android:layout_height="wrap_content"
             android:text="@string/brands" />
 
-        <ImageView
-            android:id="@+id/image"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_gravity="center"
-            android:contentDescription="coinsimage"
-            android:scaleType="centerCrop"
-            android:src="@drawable/coins" />
+
 
     </LinearLayout>
 
@@ -86,6 +79,11 @@
             android:layout_marginTop="18dp"
             android:layout_marginBottom="64dp"
             android:text="@string/send_Button" />
+        <TextView
+            android:id="@+id/names"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:text="Андрей Романов, Никита Медведев 405с11-1" />
 
     </LinearLayout>
 
